@@ -1,0 +1,99 @@
+.hackerNewsHeader {
+  background-color: #21f3b4;
+  font-size: 15pt;
+}
+
+.buttonsGroup {
+  padding-top: 10px;
+  display: flex;
+  gap:20px;
+}
+
+.findGroup {
+  display: flex;
+  gap:10px;
+  align-items: center;
+}
+
+.postsBody {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.postId {
+  width:30px;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btnContainer{
+  width: 50px;
+  height: 25px;
+}
+
+.addBtn {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.saveButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.labelItem {
+  width: 50px;
+}
+
+.inputGroup {
+  padding-bottom: 5px;
+  display: flex;
+}
+
+.text {
+  display: flex;
+  gap:10px;
+  font-family: "Times New Roman";
+  font-size: 10pt;
+  overflow: hidden;
+}
+
+.title {
+  padding-top: 10px;
+}
+
+.reference {
+  font-size: 12pt;
+  color: darkgrey;
+  display: flex;
+  align-items: center;
+}
+
+.postTitle {
+  display: flex;
+  gap: 10px;
+}
+
+.textGroup{
+  display: grid;
+}
+
+.danger {
+  color:red;
+}
+
+@media (max-width: 768px) {
+  .hackerNewsHeader {
+    background-color: #21f3b4;
+    font-size: 10pt;
+  }
+
+
+  .postTitle {
+    display: grid;
+    gap: 0;
+  }
+}
